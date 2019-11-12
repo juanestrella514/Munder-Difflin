@@ -1,0 +1,151 @@
+/* Top section */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round',sans-serif;
+}
+
+nav {
+  background-color: #2137CC;
+  color: snow;
+  font-family: sans-serif;
+  font-size: larger;
+  padding: 99px;
+}
+
+.logo {
+  float: left;
+  position: absolute;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  font-size: 18pt;
+}
+
+li {
+  border: 4px snow dotted;
+  width: 100px;
+  border-radius: 23%;
+  display: inline;
+
+}
+
+li:hover {
+  background-color: snow;
+  color: #2137CC;
+}
+
+/* mid section */
+
+.product {
+  background-image: linear-gradient(#fff, #ccc);
+  margin: 0;
+  padding: 1px;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  font-size: 26pt;
+}
+
+.collapse {
+  background-color: #2137cc;
+  width: 360px;
+  padding: 25px;
+  border-radius: 34px;
+  font-size: 16pt;
+  cursor: pointer;
+  color: snow;
+  outline: none;
+  border: none;
+  display: block
+
+}
+
+ .active, .collapse:hover {
+  background: red;
+  color: snow;
+}
+
+p {
+  font-size: 16pt;
+  background-color: #b5b5b5;
+  color: snow;
+  margin: 0;
+  padding: 18px;
+}
+
+/* About us */
+
+.img-container {
+  background-image: linear-gradient(#ccc, #2137CC);
+  margin: 0;
+}
+
+.img-container h2 {
+  font-family: 'Varela Round', sans-serif;
+  float: right;
+  font-weight: bold;
+  font-size: 30pt;
+  color: #fff;
+  padding-top: 66px;
+  margin: 26px;
+}
+
+
+.img-grid {
+height: auto;
+width: auto;
+display: grid;
+grid-template-rows: repeat(3, 5fr);
+grid-template-columns: repeat(5, 167px);
+grid-gap: 20px;
+margin: 0;
+padding: 46px;
+}
+
+.img-grid img {
+  height: 150px;
+  width: 160px;
+  border-radius: 35%;
+  justify-content: center;
+  opacity: 1;
+}
+
+.img-grid img:hover {
+  background-color: #ccc;
+  display: block;
+  opacity: 0.2;
+}
+
+.img-grid:hover p{
+  opacity: 1;
+
+}
+
+.img-grid p {
+  background-color: transparent;
+}
+
+/* .overlay {
+  transition: .5s ease; */
+  /* opacity: 0; */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+
+  /* text-align: center;
+} */
+
+
+.text {
+  background-color: #fff;
+  text-align: center;
+  padding: 0;
+}
