@@ -24,6 +24,7 @@ ul {
   cursor: pointer;
   margin: 0;
   padding: 0;
+  font-size: 16pt;
 }
 
 li {
@@ -42,27 +43,55 @@ li:hover {
 /* mid section */
 
 .product {
-  background-color: yellow;
+  background-image: linear-gradient(#2137CC, #ccc);
   margin: 0;
-  padding: 0;
+  padding: 1px;
 }
 
-button {
-  background-color: transparent;
-  width: 114px;
+h1 {
+  text-align: center;
+  color: snow;
+}
+
+.collapse {
+  background-color: #2137cc;
+  width: 360px;
   padding: 10px;
   border-radius: 34px;
-  font-size: 11pt;
+  font-size: 16pt;
   cursor: pointer;
+  color: snow;
+}
+
+ .collapse:hover {
+  background: red;
+  color: snow;
+  transition: 0.3s;
 }
 
 
 
-p {
-  overflow: hidden;
-  opacity: 0;
+
+
+.open:after {
+  max-height: 150px;
+  opacity: none;
+
 }
 
+.open {
+  /* overflow: hidden; */
+  /* opacity: 0; */
+  max-height: 0;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.open p {
+  font-size: 12pt;
+}
+
+/* About us */
 
 .img-container {
   background-image: linear-gradient(#ccc, #2137CC);
